@@ -1,0 +1,9 @@
+/* Um único marco móvel para os cinco links da navegação. */
+.site-header nav.nav-moving-frame{position:relative;isolation:isolate;gap:2px;padding:4px;align-items:center}
+.site-header .nav-moving-frame>a{position:relative;z-index:1;display:inline-flex;align-items:center;justify-content:center;padding:10px 11px;border-radius:9px;white-space:nowrap;transition:color .2s ease}
+.site-header .nav-moving-frame>a.is-nav-target{color:var(--green)}
+.nav-moving-frame .nav-follow-frame{position:absolute;z-index:0;left:0;top:0;border:1px solid var(--green);border-radius:9px;background:rgba(0,107,60,.045);pointer-events:none;opacity:0;transition:transform .28s cubic-bezier(.22,.68,0,1),width .28s cubic-bezier(.22,.68,0,1),height .28s ease,opacity .15s ease;box-sizing:border-box}
+.nav-moving-frame .nav-follow-frame.is-visible{opacity:1}
+.nav-moving-frame .nav-follow-frame.is-positioning{transition:none}
+.site-header .nav-moving-frame>a:focus-visible{outline:2px solid var(--green);outline-offset:3px}
+@media(prefers-reduced-motion:reduce){.nav-moving-frame .nav-follow-frame,.site-header .nav-moving-frame>a{transition:none}}

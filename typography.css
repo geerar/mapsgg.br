@@ -1,0 +1,19 @@
+@font-face{font-family:Archivo;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(fonts/archivo-0.ttf) format("truetype")}
+@font-face{font-family:Archivo;font-style:normal;font-weight:500;font-stretch:100%;font-display:swap;src:url(fonts/archivo-3.ttf) format("truetype")}
+@font-face{font-family:Archivo;font-style:normal;font-weight:600;font-stretch:100%;font-display:swap;src:url(fonts/archivo-6.ttf) format("truetype")}
+@font-face{font-family:Archivo;font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(fonts/archivo-9.ttf) format("truetype")}
+@font-face{font-family:Archivo;font-style:normal;font-weight:800;font-stretch:112.5%;font-display:swap;src:url(fonts/archivo-13.ttf) format("truetype")}
+
+body{font-family:"Archivo",Arial,sans-serif;font-weight:400}
+h1,h2,.services-hero h1,.monthly-card h2{font-family:"Archivo",Arial,sans-serif;font-weight:800;font-stretch:125%;text-transform:none;letter-spacing:-.045em;line-height:1.08;overflow-wrap:normal}
+h2{font-size:clamp(2rem,3.5vw,3.1rem)}
+.hero h1{font-size:clamp(2.65rem,4.8vw,4.4rem);letter-spacing:-.05em}
+.hero h1 em{font-style:normal}
+.statement-inner h2{font-size:clamp(2.5rem,6vw,5.5rem)}
+.services-hero h1{font-size:clamp(2.6rem,5.5vw,5rem)}
+h3{font-family:"Archivo",Arial,sans-serif;letter-spacing:-.025em;font-weight:700;line-height:1.25}
+#planos .plan h3{font-weight:800;font-stretch:125%;font-size:1.45rem}
+.monthly-price,.monthly-price small{font-family:"Archivo",Arial,sans-serif}
+.eyebrow{font-family:"Archivo",Arial,sans-serif;font-weight:700;letter-spacing:.12em}
+button,input,textarea,select{font-family:inherit}
+@media(max-width:620px){.hero h1{font-size:clamp(2rem,8.5vw,3rem)}.statement-inner h2{font-size:clamp(2rem,8vw,3.4rem)}h2{font-size:clamp(1.8rem,7vw,2.6rem)}.services-hero h1{font-size:clamp(2rem,8vw,3.2rem)}}

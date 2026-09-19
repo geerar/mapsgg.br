@@ -1,0 +1,13 @@
+/* Interações sutis da navegação e dos planos */
+.site-header .nav-moving-frame>a{transition:color .2s ease,transform .22s ease;transform-origin:center}
+.site-header .nav-moving-frame>a.is-nav-target{transform:scale(1.055)}
+#planos .confirmed-plan{transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease;transform-origin:center;position:relative}
+#planos .confirmed-plan h3{align-self:flex-start;display:inline-block;border:2px solid var(--green);border-radius:10px;padding:9px 17px;background:rgba(0,107,60,.035);line-height:1.2;transition:background .25s ease,box-shadow .25s ease}
+#planos .confirmed-plan:focus-within{transform:translateY(-5px) scale(1.015);border-color:var(--green);box-shadow:0 22px 45px rgba(0,65,35,.16);z-index:2}
+#planos .confirmed-plan:focus-within h3{background:rgba(0,107,60,.09);box-shadow:0 4px 12px rgba(0,65,35,.08)}
+@media(hover:hover) and (pointer:fine){
+#planos .confirmed-plan:hover{transform:translateY(-5px) scale(1.015);border-color:var(--green);box-shadow:0 22px 45px rgba(0,65,35,.16);z-index:2}
+#planos .confirmed-plan:hover h3{background:rgba(0,107,60,.09);box-shadow:0 4px 12px rgba(0,65,35,.08)}
+}
+@media(max-width:760px){#planos .confirmed-plan:focus-within{transform:none}}
+@media(prefers-reduced-motion:reduce){.site-header .nav-moving-frame>a,#planos .confirmed-plan,#planos .confirmed-plan h3{transition:none}.site-header .nav-moving-frame>a.is-nav-target,#planos .confirmed-plan:hover,#planos .confirmed-plan:focus-within{transform:none}}

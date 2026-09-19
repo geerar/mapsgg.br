@@ -1,0 +1,6 @@
+/* Cabeçalho comum a todas as páginas. */
+.site-header{border-bottom:0;background:rgba(255,246,227,.96);box-shadow:none}
+.site-header::after{content:none}
+.site-header .nav-moving-frame>a{transition:color .2s ease,transform .22s ease;transform-origin:center}
+.site-header .nav-moving-frame>a.is-nav-target{transform:scale(1.055)}
+@media(prefers-reduced-motion:reduce){.site-header .nav-moving-frame>a{transition:none}.site-header .nav-moving-frame>a.is-nav-target{transform:none}}

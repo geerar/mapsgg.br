@@ -1,0 +1,16 @@
+MAPSGG — NAVBAR Y PLANES INTERACTIVOS
+
+Abrí index.html en Chrome para probar el diseño.
+Nombres de los planes enmarcados y ampliación suave de las tarjetas.
+La navbar conserva el marco móvil y amplía suavemente la opción activa.
+Se respeta la preferencia de movimiento reducido y el uso del teclado.
+
+Para actualizar GoDaddy, guardá una copia de index.html y subí a public_html:
+index.html
+navbar-frame.js
+navbar-frame.css
+hover-interactions.css
+header-social.css
+planos-mensais.css
+
+No hace falta reemplazar otros archivos. Esta versión todavía no está publicada.
